@@ -1,0 +1,6 @@
+
+*.ide
+.vs/RoboAutomation/v15/.suo
+.vs/RoboAutomation/v15/Server/sqlite3/db.lock
+.vs/RoboAutomation/v15/Server/sqlite3/storage.ide-shm
+.vs/RoboAutomation/v15/Server/sqlite3/storage.ide-wal
