@@ -1,0 +1,23 @@
+﻿[
+	{
+		"Name" : "Robot1"
+	},
+	{
+		"Name" : "Robot2"
+	},
+	{
+		"Name" : "Robot3"		
+	},
+	{
+		"Name" : "Robot4"		
+	},
+	{
+		"Name" : "Robot5"		
+	},
+	{
+		"Name" : "Robot6"		
+	},
+	{
+		"Name" : "Robot7"		
+	},
+]

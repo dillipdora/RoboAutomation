@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboAutomation", "RoboAutomation\RoboAutomation.csproj", "{F6D6F65B-6675-4B67-ACF2-16391EEC87B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobosLibrary", "RobosLibrary\RobosLibrary.csproj", "{B8B28C8B-0469-4989-8294-99533B7F8309}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboCommon", "RoboCommon\RoboCommon.csproj", "{02C318F2-8A3D-4F40-9EC6-A8CE1D73559A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboInfra", "RoboInfra\RoboInfra.csproj", "{95136727-50D1-4BE4-9CEC-64DE89D7A08B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6D6F65B-6675-4B67-ACF2-16391EEC87B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D6F65B-6675-4B67-ACF2-16391EEC87B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D6F65B-6675-4B67-ACF2-16391EEC87B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D6F65B-6675-4B67-ACF2-16391EEC87B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B28C8B-0469-4989-8294-99533B7F8309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B28C8B-0469-4989-8294-99533B7F8309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B28C8B-0469-4989-8294-99533B7F8309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B28C8B-0469-4989-8294-99533B7F8309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C318F2-8A3D-4F40-9EC6-A8CE1D73559A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C318F2-8A3D-4F40-9EC6-A8CE1D73559A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C318F2-8A3D-4F40-9EC6-A8CE1D73559A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C318F2-8A3D-4F40-9EC6-A8CE1D73559A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95136727-50D1-4BE4-9CEC-64DE89D7A08B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95136727-50D1-4BE4-9CEC-64DE89D7A08B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95136727-50D1-4BE4-9CEC-64DE89D7A08B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95136727-50D1-4BE4-9CEC-64DE89D7A08B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB4BE1EF-154D-4913-A3DB-07869CAD98C7}
+	EndGlobalSection
+EndGlobal
