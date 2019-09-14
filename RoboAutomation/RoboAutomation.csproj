@@ -56,15 +56,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Interfaces\ICommandRepository.cs" />
     <Compile Include="Interfaces\IMainWindowViewModel.cs" />
     <Compile Include="Interfaces\IRegisterRobots.cs" />
     <Compile Include="Interfaces\IRobotCommand.cs" />
-    <Compile Include="Services\CommandPayload.cs" />
+    <Compile Include="Interfaces\IRobotCommandExecuter.cs" />
+    <Compile Include="Services\CommandRepository.cs" />
     <Compile Include="Utilities\DependencyInjectionHelper.cs" />
-    <Compile Include="Utilities\ExecutedCommands.cs" />
     <Compile Include="Utilities\MEFContainer.cs" />
     <Compile Include="Services\RegisterRobotService.cs" />
     <Compile Include="Services\RobotRepository.cs" />
+    <Compile Include="Utilities\MVVMRelayCommand.cs" />
+    <Compile Include="Utilities\RobotCommand.cs" />
+    <Compile Include="Utilities\RobotCommandExecuter.cs" />
     <Compile Include="Validators\DoubleValidator.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <Page Include="MainWindow.xaml">

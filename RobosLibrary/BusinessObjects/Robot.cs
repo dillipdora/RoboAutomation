@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.Composition;
+using System.Threading;
 
 namespace RobosLibrary
 {
@@ -16,26 +17,37 @@ namespace RobosLibrary
         [JsonIgnore]
         public int Id { get; set; }
 
+        [JsonIgnore]
+        public double StartPosition { get; set; }
+
+        [JsonIgnore]
+        public double EndPosition { get; set; }
+
         public Robot(string name)
         {
             Id = RobotIdGenerator.GiveNextId();
             Name = name;
+            StartPosition = 0;
+            EndPosition = 0;
         }
 
         #region IRobot implementation
         public void Beep()
         {
-            throw new NotImplementedException();
+            System.Media.SystemSounds.Beep.Play();
+            Thread.CurrentThread.Join(1000);
         }
 
         public void Move(double distance)
         {
-            throw new NotImplementedException();
+            EndPosition += distance;
+            Thread.CurrentThread.Join(1000);
         }
 
         public void Turn(double angle)
         {
-            throw new NotImplementedException();
+            //todo: add some logic here
+            Thread.CurrentThread.Join(1000);
         }
         #endregion
     }

@@ -29,19 +29,13 @@ namespace RoboAutomation
         {
             InitializeComponent();
 
-            SatisfyImports();
+            DependencyInjectionHelper.Resolve(this);
 
             DataContext = _viewModel;
         }
 
         [Import(typeof(IMainWindowViewModel))]
         private IMainWindowViewModel _viewModel;
-
-        private void SatisfyImports()
-        {
-            var conatiner = new MEFContainer();
-            conatiner.SatisfyImports(this);
-        }
 
     }
 }

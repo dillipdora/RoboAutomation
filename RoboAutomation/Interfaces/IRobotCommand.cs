@@ -3,9 +3,12 @@ using RoboAutomation.Services;
 
 namespace RoboAutomation.Interfaces
 {
-    interface IRobotCommand
+    public interface IRobotCommand
     {
+        int RobotIndex { get; set; }
+
         string CommandName { get; set; }
-        void Execute(CommandPayload payload);
+
+        double Value { get; set; }
     }
 }
